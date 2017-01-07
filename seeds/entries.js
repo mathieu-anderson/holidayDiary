@@ -5,7 +5,7 @@ exports.seed = function(knex, Promise) {
     .then(function () {
       return Promise.all([
         // Inserts seed entries
-        knex('entries').insert({id: 1, date: '18.12.2016', entry: `- Started the refactoring of myUnconventionalTaste database : got a joined table to work (https://github.com/mathieu-anderson/myUnconventionalTastes/blob/betterDatabase/app.js)
+        knex('entries').insert({id: 1, date: '18.12.2016', entry: `Started the refactoring of myUnconventionalTaste database : got a joined table to work (https://github.com/mathieu-anderson/myUnconventionalTastes/blob/betterDatabase/app.js)
 - Remade some of the kata of day 1 week 1 phase 1 (objects and arrays) https://github.com/HolidaysReview/Week1_Monday`}),
         knex('entries').insert({id: 2, date: '19.12.2016', entry: `- Setup Holidays reviews organization on gitHub
 - Finished Week 1 Day 1 Kata (objects and array) https://github.com/HolidaysReview/Week1_Monday

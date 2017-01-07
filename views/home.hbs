@@ -1,11 +1,11 @@
 <h1>Mathieu's Holiday Review Diary</h1>
 <p>{{#each entries}}
   <ul>
-    <form class="" action="/entry/" method="post">
+    <!-- <form class="" action="/entry/" method="post">
       <input type="hidden" name="date" value="{{date}}">
       <input type="submit" name="submit" value="{{date}}">
-    </form>
-    <!-- <a href="/entry/">{{date}}</a> -->
+    </form> -->
+    <a href="/entry/{{date}}">{{date}}</a>
   </ul>
 {{/each}}
 </p>
