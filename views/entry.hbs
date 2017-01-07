@@ -1,9 +1,17 @@
-{{#each entries}}
 
-<h1>{{date}}</h1>
+
+<h1>{{entries.1.date}}</h1>
+
+<h2>Happiness level : {{entries.1.happ_level}}</h2>
+
 
 <p>
-  {{entry}}
+  {{entries.1.entry}}
 </p>
 
+Tags :
+{{#each entries}}
+<ul>
+  {{tag}}
+</ul>
 {{/each}}

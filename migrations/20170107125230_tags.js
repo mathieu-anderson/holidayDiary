@@ -2,7 +2,8 @@
 exports.up = function(knex, Promise) {
   return knex.schema.createTableIfNotExists("tags", function(table){
     table.increments();
-    table.string("tag")
+    table.string("tag");
+    table.integer("entry_id")
   })
 };
 
